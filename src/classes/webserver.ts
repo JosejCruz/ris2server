@@ -5,6 +5,7 @@ export default class WebServer{
     static puerto = 4000;
     static App = Express();
     static Iniciar(){
+        this.App.use(Express.json())
         this.App.use(Cors())
         this.App.use("/App", Approute)
 

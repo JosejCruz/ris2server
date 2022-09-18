@@ -3,7 +3,7 @@ import { Content } from '../data/Content';
 import {Usuario} from '../data/Users'
 const jwt = require('jsonwebtoken')
 
-const llave = 12345678;
+const llave = '12345678';
 const route = Router()
 function prueba(req:any, res:any, next:any){
     console.log("Prueba")
@@ -16,31 +16,24 @@ route.get("/", async (req, res)=>{
 })
 
 
-route.post("/login", async (req, res)=>{
-    const {User, Password} = req.body;
-    const usuario:Usuario ={
+route.post("/login", (req, res, next)=>{
+    const { user, password } = req.body;
+    const usuario:Usuario = {
         Id: 1,
         Nombre: "Usuario 1",
         User: "Admin",
         Password: "12345678910"
     }
-    if(User ==  usuario.User && Password == usuario.Password){
-        const user = {username: User}
+    if(user ==  usuario.User && password == usuario.Password){
         const accesstoken = generateAccessToken(user);
-        res.header('authorization', accesstoken).json({
-            message: 'Usuario autenticado',
-            token: accesstoken
-        })
-        console.log(accesstoken)
+        res.json({auth: true, token: accesstoken})
+    }else{
+        res.json({auth: false})
     }
 })
 
-interface usuarios {
-    username: string
-}
-
-function generateAccessToken(user:usuarios){
-    return jwt.sign(user, llave, {expiresIn: '5m'})
+function generateAccessToken(user:string){
+    return jwt.sign({user}, llave, {expiresIn: 60 * 60})
 }
 
 function validateToken(req:any, res:any, next:any){
@@ -57,26 +50,45 @@ function validateToken(req:any, res:any, next:any){
     })
 }
 
-route.get("/content", validateToken, async (req, res)=>{
-    console.log(req.query)
+route.get("/content", (req, res)=>{
+    const token = req.headers['x-access-token']
     var data = Content;
-    let datos = "";
-    data.map((contenido) =>{
-        datos += `<tr>
-                    <td>${contenido.id}</td>
-                    <td>${contenido.title}</td>
-                    <td>${contenido.body}</td>
-                </tr>`
-    })
-    res.send(
-        `<table border=2>
-            <tr>
-                <th>Id</th>
-                <th>Title</th>
-                <th>Body</th>
-            </tr>
-            ${datos}
-        </table>`
-    )
+    const usuario:Usuario = {
+        Id: 1,
+        Nombre: "Usuario 1",
+        User: "Admin",
+        Password: "12345678910"
+    }
+    if (!token) {
+        return res.status(401).json({
+            auth: false,
+            message: 'No token access'
+        })
+    }
+
+    const decode = jwt.verify(token, llave)
+    if (decode.user != usuario.User) {
+        return res.status(404).send('user not found')
+    }
+    console.log(decode)
+    res.json(Content)
+    // let datos = "";
+    // data.map((contenido) =>{
+    //     datos += `<tr>
+    //                 <td>${contenido.id}</td>
+    //                 <td>${contenido.title}</td>
+    //                 <td>${contenido.body}</td>
+    //             </tr>`
+    // })
+    // res.send(
+    //     `<table border=2>
+    //         <tr>
+    //             <th>Id</th>
+    //             <th>Title</th>
+    //             <th>Body</th>
+    //         </tr>
+    //         ${datos}
+    //     </table>`
+    // )
 })
 export default route
