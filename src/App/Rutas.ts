@@ -36,23 +36,9 @@ function generateAccessToken(user:string){
     return jwt.sign({user}, llave, {expiresIn: 60 * 60})
 }
 
-function validateToken(req:any, res:any, next:any){
-    const accesstoken = req.header['authorization']
-    if (!accesstoken) {
-        res.send('Access Denied')
-    }
-    jwt.verify(accesstoken, llave, (err:any, user:any) =>{
-        if (err) {
-            res.send('Access Denied, Token expire or incorrect')
-        }else{
-            next()
-        }
-    })
-}
 
-route.get("/content", (req, res)=>{
+route.get("/auth", (req, res)=>{
     const token = req.headers['x-access-token']
-    var data = Content;
     const usuario:Usuario = {
         Id: 1,
         Nombre: "Usuario 1",
@@ -65,13 +51,62 @@ route.get("/content", (req, res)=>{
             message: 'No token access'
         })
     }
-
-    const decode = jwt.verify(token, llave)
-    if (decode.user != usuario.User) {
-        return res.status(404).send('user not found')
+    
+    try {
+        const decode = jwt.verify(token, llave)
+        if (decode.user != usuario.User) {
+            return res.status(404).json({
+                auth: false,
+                message: 'User not Found'
+            })
+        }
+        console.log(decode)
+        res.json({
+            auth: true,
+            message: "Welcome",
+            usuario
+        });
+    } catch (error) {
+        return res.status(401).json({
+            auth: false,
+            message: 'error verifying token'
+        })
     }
-    console.log(decode)
+})
+
+function validateToken(req:any, res:any, next:any){
+    const token = req.headers['x-access-token']
+    if (!token) {
+        return res.json({
+            auth: false,
+            message: 'No token access'
+        })
+    }
+    try {
+        const usuario:Usuario = {
+            Id: 1,
+            Nombre: "Usuario 1",
+            User: "Admin",
+            Password: "12345678910"
+        }
+        const decode = jwt.verify(token, llave)
+        if (decode.user != usuario.User) {
+            return res.json({
+                auth: false,
+                message: 'error verifying token'
+            })
+        }
+        next()
+    } catch (error) {
+        return res.status(401).json({
+            auth: false,
+            message: 'error verifying token'
+        })
+    }
+}
+route.get("/content", validateToken, (req, res)=>{
     res.json(Content)
+
     // let datos = "";
     // data.map((contenido) =>{
     //     datos += `<tr>
