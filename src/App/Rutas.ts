@@ -42,7 +42,8 @@ route.get("/auth", (req, res) => {
 
 
 route.get("/content", Scripts.validateToken, (req, res) => {
-    res.json(Content)
+    let registros = JSON.parse(fs.readFileSync("./Fake/registros.json","utf-8"))
+    res.json(registros)
 
     // let datos = "";
     // data.map((contenido) =>{

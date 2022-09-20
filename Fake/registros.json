@@ -1,0 +1,541 @@
+[
+    {
+        "_id": "632a0dc3b21ac5981a95e62e",
+        "NumeroRegistro": 65465521,
+        "Tipo": "Preregistro",
+        "Paciente": {
+            "_id": "632a17688806dd0422ef89f1",
+            "ID": "1",
+            "nombre": "Paciente 1",
+            "telefono": "456987",
+            "correo": "Paciente1@paciente.com",
+            "edad": 20
+        },
+        "Medico": {
+            "_id": "632a18756982f2477d966b95",
+            "nombre": "Medico 1"
+        },
+        "Seguro": {
+            "_id": "632a18abebb767b6824224de",
+            "nombre": "Particular",
+            "cobertura": 591
+        },
+        "Facturacion": {
+            "_id": "632a18f6b26a8356502a2c1a",
+            "NIT": "6494615875",
+            "Razonsocial": "Estandar"
+        },
+        "ListaEstudios": {
+            "_id": "632a1bcb3afa13612bf5614d",
+            "nombreMod": "mamografia",
+            "nombreModDicom": "MG",
+            "nombreEstudio": "MAMOGRAFIA",
+            "precio": 500,
+            "preparacion": true,
+            "parteAnatomica": -1,
+            "datosPreparacion": "string",
+            "codigo": "MG-01"
+        },
+        "Total": 500,
+        "Abono": 0,
+        "EstadosDeCuenta": {
+            "MetodoPago": "Efectivo",
+            "Abono": 0,
+            "FechaAbono": 20220102,
+            "Detalle": "Sin Datos"
+        },
+        "FechaRegistro": 20220101,
+        "FechaIngreso": 20220102,
+        "FechaEntrega": 20220103
+    },
+    {
+        "_id": "632a2007cc1e1451883ba87a",
+        "NumeroRegistro": 5465987,
+        "Tipo": "Preregistro",
+        "Paciente": {
+            "_id": "632a201ac45bcf3b0bc15fbe",
+            "ID": "2",
+            "nombre": "Paciente 2",
+            "telefono": "6548713",
+            "correo": "Paciente2@paciente.com",
+            "edad": 22
+        },
+        "Medico": {
+            "_id": "632a202d385c6defcf5092ec",
+            "nombre": "Medico 2"
+        },
+        "Seguro": {
+            "_id": "632a203813849ca3c896b939",
+            "nombre": "Particular",
+            "cobertura": 591
+        },
+        "Facturacion": {
+            "_id": "632a20488e59b509cb0c1f94",
+            "NIT": "654875",
+            "Razonsocial": "Estandar"
+        },
+        "ListaEstudios": {
+            "_id": "62c74572d2f05be4549ef4d3",
+            "nombreMod": "densitometria",
+            "nombreModDicom": "densitometria",
+            "nombreEstudio": "DENSITOMETRIA OSEA CADERA Y COLUMNA",
+            "precio": 270,
+            "preparacion": true,
+            "parteAnatomica": -1,
+            "datosPreparacion": "string",
+            "codigo": "DE-01"
+        },
+        "Total": 270,
+        "Abono": 0,
+        "EstadosDeCuenta": {
+            "MetodoPago": "Efectivo",
+            "Abono": 0,
+            "FechaAbono": 20220102,
+            "Detalle": "Sin Datos"
+        },
+        "FechaRegistro": 20220101,
+        "FechaIngreso": 20220102,
+        "FechaEntrega": 20220103
+    },
+    {
+        "_id": "632a21f33bbe2e664b020703",
+        "NumeroRegistro": 548755,
+        "Tipo": "Ingresado",
+        "Paciente": {
+            "_id": "632a22285702b5d75d2ed5f3",
+            "ID": "1",
+            "nombre": "Paciente 3",
+            "telefono": "5498785",
+            "correo": "Paciente3@paciente.com",
+            "edad": 21
+        },
+        "Medico": {
+            "_id": "632a223cc899e6ef0d96bcda",
+            "nombre": "Medico 3"
+        },
+        "Seguro": {
+            "_id": "632a2248e89b223efa2842bb",
+            "nombre": "Particular",
+            "cobertura": 591
+        },
+        "Facturacion": {
+            "_id": "632a22510d44a1b758fa7043",
+            "NIT": "49878975",
+            "Razonsocial": "Estandar"
+        },
+        "ListaEstudios": {
+            "_id": "62c74572d2f05be4549ef4d4",
+            "nombreMod": "rayos x",
+            "nombreModDicom": "CR",
+            "nombreEstudio": "CRANEO AP",
+            "precio": 270,
+            "preparacion": true,
+            "parteAnatomica": -1,
+            "datosPreparacion": "string",
+            "codigo": "CR-01"
+        },
+        "Total": 270,
+        "Abono": 0,
+        "EstadosDeCuenta": {
+            "MetodoPago": "Efectivo",
+            "Abono": 0,
+            "FechaAbono": 20220102,
+            "Detalle": "Sin Datos"
+        },
+        "FechaRegistro": 20220101,
+        "FechaIngreso": 20220102,
+        "FechaEntrega": 20220103
+    },
+    {
+        "_id": "632a22da41eef6432f156491",
+        "NumeroRegistro": 878555,
+        "Tipo": "Preregistro",
+        "Paciente": {
+            "_id": "632a22fdb53ad6299864d07c",
+            "ID": "4",
+            "nombre": "Paciente 4",
+            "telefono": "65987",
+            "correo": "Paciente4@paciente.com",
+            "edad": 25
+        },
+        "Medico": {
+            "_id": "632a18756982f2477d966b95",
+            "nombre": "Medico 1"
+        },
+        "Seguro": {
+            "_id": "632a2312cf3c6df765e014ab",
+            "nombre": "Particular",
+            "cobertura": 591
+        },
+        "Facturacion": {
+            "_id": "632a231affdebe9c02769de3",
+            "NIT": "6494645875",
+            "Razonsocial": "Estandar"
+        },
+        "ListaEstudios": {
+            "_id": "62c74572d2f05be4549ef4d5",
+            "nombreMod": "rayos x",
+            "nombreModDicom": "CR",
+            "nombreEstudio": "CRANEO LATERAL",
+            "precio": 270,
+            "preparacion": true,
+            "parteAnatomica": -1,
+            "datosPreparacion": "string",
+            "codigo": "CR-02"
+        },
+        "Total": 270,
+        "Abono": 0,
+        "EstadosDeCuenta": {
+            "MetodoPago": "Efectivo",
+            "Abono": 0,
+            "FechaAbono": 20220105,
+            "Detalle": "Sin Datos"
+        },
+        "FechaRegistro": 20220102,
+        "FechaIngreso": 20220103,
+        "FechaEntrega": 20220104
+    },
+    {
+        "_id": "632a260d67ec49e7b5a249ce",
+        "NumeroRegistro": 6546545,
+        "Tipo": "Ingresado",
+        "Paciente": {
+            "_id": "632a263230470d25646d0009",
+            "ID": "5",
+            "nombre": "Paciente 5",
+            "telefono": "45698654",
+            "correo": "Paciente5@paciente.com",
+            "edad": 25
+        },
+        "Medico": {
+            "_id": "632a202d385c6defcf5092ec",
+            "nombre": "Medico 2"
+        },
+        "Seguro": {
+            "_id": "632a266ec39f2eb91aeed342",
+            "nombre": "Particular",
+            "cobertura": 591
+        },
+        "Facturacion": {
+            "_id": "632a26758fb2efda9d17f276",
+            "NIT": "64946158754",
+            "Razonsocial": "Estandar"
+        },
+        "ListaEstudios": {
+            "_id": "62c74572d2f05be4549ef4d8",
+            "nombreMod": "rayos x",
+            "nombreModDicom": "CR",
+            "nombreEstudio": "CAVUM FARINGEO",
+            "precio": 250,
+            "preparacion": true,
+            "parteAnatomica": -1,
+            "datosPreparacion": "string",
+            "codigo": "CR-05"
+        },
+        "Total": 250,
+        "Abono": 0,
+        "EstadosDeCuenta": {
+            "MetodoPago": "qr",
+            "Abono": 0,
+            "FechaAbono": 20220108,
+            "Detalle": "Sin Datos"
+        },
+        "FechaRegistro": 20220105,
+        "FechaIngreso": 20220106,
+        "FechaEntrega": 20220107
+    },
+    {
+        "_id": "632a270d44295a315c7ac215",
+        "NumeroRegistro": 654655211,
+        "Tipo": "Preregistro",
+        "Paciente": {
+            "_id": "632a17688806dd0422ef89f1",
+            "ID": "6",
+            "nombre": "Paciente 6",
+            "telefono": "456987558",
+            "correo": "Paciente6@paciente.com",
+            "edad": 28
+        },
+        "Medico": {
+            "_id": "632a18756982f2477d966b95",
+            "nombre": "Medico 1"
+        },
+        "Seguro": {
+            "_id": "632a271ba096e68c65018fe6",
+            "nombre": "Particular",
+            "cobertura": 591
+        },
+        "Facturacion": {
+            "_id": "632a27235612a6451e14ada7",
+            "NIT": "649461587745",
+            "Razonsocial": "Estandar"
+        },
+        "ListaEstudios": {
+            "_id": "632a1bcb3afa13612bf5614d",
+            "nombreMod": "mamografia",
+            "nombreModDicom": "MG",
+            "nombreEstudio": "MAMOGRAFIA",
+            "precio": 500,
+            "preparacion": true,
+            "parteAnatomica": -1,
+            "datosPreparacion": "string",
+            "codigo": "MG-01"
+        },
+        "Total": 500,
+        "Abono": 0,
+        "EstadosDeCuenta": {
+            "MetodoPago": "Efectivo",
+            "Abono": 0,
+            "FechaAbono": 20220108,
+            "Detalle": "Sin Datos"
+        },
+        "FechaRegistro": 20220105,
+        "FechaIngreso": 20220106,
+        "FechaEntrega": 20220107
+    },
+    {
+        "_id": "632a285788309ad3b9304be5",
+        "NumeroRegistro": 6546555,
+        "Tipo": "Ingresado",
+        "Paciente": {
+            "_id": "632a287d2655e36e4e4639b4",
+            "ID": "7",
+            "nombre": "Paciente 7",
+            "telefono": "45698764",
+            "correo": "Paciente7@paciente.com",
+            "edad": 27
+        },
+        "Medico": {
+            "_id": "632a18756982f2477d966b95",
+            "nombre": "Medico 1"
+        },
+        "Seguro": {
+            "_id": "632a288a344db6c662a0492c",
+            "nombre": "Particular",
+            "cobertura": 591
+        },
+        "Facturacion": {
+            "_id": "632a2891f393779cdef11a5a",
+            "NIT": "6494615877",
+            "Razonsocial": "Estandar"
+        },
+        "ListaEstudios": {
+            "_id": "62c74572d2f05be4549ef4d9",
+            "nombreMod": "rayos x",
+            "nombreModDicom": "CR",
+            "nombreEstudio": "HUESOS PROPIOS DE NARIZ (WATTERS Y PERFILOGRAMA)",
+            "precio": 420,
+            "preparacion": true,
+            "parteAnatomica": -1,
+            "datosPreparacion": "string",
+            "codigo": "CR-06"
+        },
+        "Total": 420,
+        "Abono": 0,
+        "EstadosDeCuenta": {
+            "MetodoPago": "Efectivo",
+            "Abono": 0,
+            "FechaAbono": 20220110,
+            "Detalle": "Sin Datos"
+        },
+        "FechaRegistro": 20220107,
+        "FechaIngreso": 20220108,
+        "FechaEntrega": 20220109
+    },
+    {
+        "_id": "632a28fe1550d26ad53c64a7",
+        "NumeroRegistro": 65465555,
+        "Tipo": "Preregistro",
+        "Paciente": {
+            "_id": "632a290de2b143c62148c135",
+            "ID": "8",
+            "nombre": "Paciente 8",
+            "telefono": "456987544",
+            "correo": "Paciente8@paciente.com",
+            "edad": 26
+        },
+        "Medico": {
+            "_id": "632a18756982f2477d966b95",
+            "nombre": "Medico 1"
+        },
+        "Seguro": {
+            "_id": "632a292168e14c8a048ecfc3",
+            "nombre": "Particular",
+            "cobertura": 591
+        },
+        "Facturacion": {
+            "_id": "632a2929b24e36d4bb0b5811",
+            "NIT": "64946158711",
+            "Razonsocial": "Estandar"
+        },
+        "ListaEstudios": {
+            "_id": "632a1bcb3afa13612bf5614d",
+            "nombreMod": "mamografia",
+            "nombreModDicom": "MG",
+            "nombreEstudio": "MAMOGRAFIA",
+            "precio": 500,
+            "preparacion": true,
+            "parteAnatomica": -1,
+            "datosPreparacion": "string",
+            "codigo": "MG-01"
+        },
+        "Total": 500,
+        "Abono": 0,
+        "EstadosDeCuenta": {
+            "MetodoPago": "Efectivo",
+            "Abono": 0,
+            "FechaAbono": 20220102,
+            "Detalle": "Sin Datos"
+        },
+        "FechaRegistro": 20220115,
+        "FechaIngreso": 20220111,
+        "FechaEntrega": 20220112
+    },
+    {
+        "_id": "632a294a01d966d2cc792328",
+        "NumeroRegistro": 654652521,
+        "Tipo": "Preregistro",
+        "Paciente": {
+            "_id": "632a29616bac356c684a39b8",
+            "ID": "9",
+            "nombre": "Paciente 9",
+            "telefono": "4565987",
+            "correo": "Paciente9@paciente.com",
+            "edad": 20
+        },
+        "Medico": {
+            "_id": "632a18756982f2477d966b95",
+            "nombre": "Medico 1"
+        },
+        "Seguro": {
+            "_id": "632a296bb0d97f40d218cd15",
+            "nombre": "Particular",
+            "cobertura": 591
+        },
+        "Facturacion": {
+            "_id": "632a2971981a651f57dfad20",
+            "NIT": "64946158775",
+            "Razonsocial": "Estandar"
+        },
+        "ListaEstudios": {
+            "_id": "632a1bcb3afa13612bf5614d",
+            "nombreMod": "mamografia",
+            "nombreModDicom": "MG",
+            "nombreEstudio": "MAMOGRAFIA",
+            "precio": 500,
+            "preparacion": true,
+            "parteAnatomica": -1,
+            "datosPreparacion": "string",
+            "codigo": "MG-01"
+        },
+        "Total": 500,
+        "Abono": 0,
+        "EstadosDeCuenta": {
+            "MetodoPago": "Efectivo",
+            "Abono": 0,
+            "FechaAbono": 20220102,
+            "Detalle": "Sin Datos"
+        },
+        "FechaRegistro": 20220115,
+        "FechaIngreso": 20220111,
+        "FechaEntrega": 20220113
+    },
+    {
+        "_id": "632a2993f2f95e33ac921de7",
+        "NumeroRegistro": 654625521,
+        "Tipo": "Preregistro",
+        "Paciente": {
+            "_id": "632a29993720c74077938cc9",
+            "ID": "10",
+            "nombre": "Paciente 10",
+            "telefono": "4569874441",
+            "correo": "Paciente10@paciente.com",
+            "edad": 20
+        },
+        "Medico": {
+            "_id": "632a18756982f2477d966b95",
+            "nombre": "Medico 1"
+        },
+        "Seguro": {
+            "_id": "632a29a33069e12cdf6c7edb",
+            "nombre": "Particular",
+            "cobertura": 591
+        },
+        "Facturacion": {
+            "_id": "632a29ad07eab149df6be127",
+            "NIT": "6494615877447",
+            "Razonsocial": "Estandar"
+        },
+        "ListaEstudios": {
+            "_id": "632a1bcb3afa13612bf5614d",
+            "nombreMod": "mamografia",
+            "nombreModDicom": "MG",
+            "nombreEstudio": "MAMOGRAFIA",
+            "precio": 500,
+            "preparacion": true,
+            "parteAnatomica": -1,
+            "datosPreparacion": "string",
+            "codigo": "MG-01"
+        },
+        "Total": 500,
+        "Abono": 0,
+        "EstadosDeCuenta": {
+            "MetodoPago": "Efectivo",
+            "Abono": 0,
+            "FechaAbono": 20220102,
+            "Detalle": "Sin Datos"
+        },
+        "FechaRegistro": 20220101,
+        "FechaIngreso": 20220102,
+        "FechaEntrega": 20220103
+    },
+    {
+        "_id": "632a29c68b9d73edad09a14e",
+        "NumeroRegistro": 65465521447741,
+        "Tipo": "Preregistro",
+        "Paciente": {
+            "_id": "632a29dd158798aab3ba83c0",
+            "ID": "11",
+            "nombre": "Paciente 11",
+            "telefono": "45698711",
+            "correo": "Paciente11@paciente.com",
+            "edad": 20
+        },
+        "Medico": {
+            "_id": "632a18756982f2477d966b95",
+            "nombre": "Medico 1"
+        },
+        "Seguro": {
+            "_id": "632a29ee71b6671f322eb3d8",
+            "nombre": "Particular",
+            "cobertura": 591
+        },
+        "Facturacion": {
+            "_id": "632a29e90deba1e1d3b4bc6b",
+            "NIT": "649461125875",
+            "Razonsocial": "Estandar"
+        },
+        "ListaEstudios": {
+            "_id": "632a1bcb3afa13612bf5614d",
+            "nombreMod": "mamografia",
+            "nombreModDicom": "MG",
+            "nombreEstudio": "MAMOGRAFIA",
+            "precio": 500,
+            "preparacion": true,
+            "parteAnatomica": -1,
+            "datosPreparacion": "string",
+            "codigo": "MG-01"
+        },
+        "Total": 500,
+        "Abono": 0,
+        "EstadosDeCuenta": {
+            "MetodoPago": "Efectivo",
+            "Abono": 0,
+            "FechaAbono": 20220102,
+            "Detalle": "Sin Datos"
+        },
+        "FechaRegistro": 20220101,
+        "FechaIngreso": 20220102,
+        "FechaEntrega": 20220103
+    }
+]
