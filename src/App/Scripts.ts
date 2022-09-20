@@ -38,6 +38,7 @@ function validateToken(req: any, res: any, next: any) {
     }
 }
 
+
 function VerificarToken(token:string) {
     const usuario: Usuario = {
         Id: 1,
