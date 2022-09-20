@@ -1,0 +1,5642 @@
+[
+    {
+        "_id": "62c74572d2f05be4549ef4d2",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 250
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 250
+            }
+        ],
+        "codigo": "MG-01",
+        "nombre": "MAMOGRAFIA",
+        "modalidad": "MG",
+        "modalidad_nombre": "mamografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4d3",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 350
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "DE-01",
+        "nombre": "DENSITOMETRIA OSEA CADERA Y COLUMNA",
+        "modalidad": "densitometria",
+        "modalidad_nombre": "densitometria",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4d4",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-01",
+        "nombre": "CRANEO AP",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 0,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4d5",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-02",
+        "nombre": "CRANEO LATERAL",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 0,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4d6",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 300
+            }
+        ],
+        "codigo": "CR-03",
+        "nombre": "CRANEO AP - LATERAL",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 0,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4d7",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-04",
+        "nombre": "CADWELL",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 0,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4d8",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-05",
+        "nombre": "CAVUM FARINGEO",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 0,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4d9",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 180
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 250
+            }
+        ],
+        "codigo": "CR-06",
+        "nombre": "HUESOS PROPIOS DE NARIZ (WATTERS Y PERFILOGRAMA)",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 0,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4da",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-07",
+        "nombre": "MAXILAR INFERIOR",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 0,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4db",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 170
+            }
+        ],
+        "codigo": "CR-08",
+        "nombre": "PERFILOGRAMA",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 0,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4dc",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 220
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 270
+            }
+        ],
+        "codigo": "CR-09",
+        "nombre": "SENOS PARANASALES (WATTERS, CADWELL, LATERAL)",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 0,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4dd",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 180
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 250
+            }
+        ],
+        "codigo": "CR-10",
+        "nombre": "SENOS PARANASALES (WATTERS, CADWELL)",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 0,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4de",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 170
+            }
+        ],
+        "codigo": "CR-11",
+        "nombre": "WATTERS",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 0,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4df",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-12",
+        "nombre": "CLAVICULA AP",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4e0",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 170
+            }
+        ],
+        "codigo": "CR-13",
+        "nombre": "ESCAPULA AXIAL",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4e1",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-14",
+        "nombre": "ESTERNON LATERAL",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4e2",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 170
+            }
+        ],
+        "codigo": "CR-15",
+        "nombre": "HEMITORAX OBLICUO",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4e3",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 170
+            }
+        ],
+        "codigo": "CR-16",
+        "nombre": "HOMBRO AP",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4e4",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 230
+            }
+        ],
+        "codigo": "CR-17",
+        "nombre": "HOMBRO AP Y AXIAL",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4e5",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 130
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 170
+            }
+        ],
+        "codigo": "CR-18",
+        "nombre": "HOMBRO TRANS TORAXICO",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4e6",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 170
+            }
+        ],
+        "codigo": "CR-19",
+        "nombre": "TORAX LATERAL",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4e7",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 250
+            }
+        ],
+        "codigo": "CR-20",
+        "nombre": "TORAX AP Y OBLICUO",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4e8",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 170
+            }
+        ],
+        "codigo": "CR-21",
+        "nombre": "TORAX NIÑO PA O AP",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4e9",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 200
+            }
+        ],
+        "codigo": "CR-22",
+        "nombre": "TORAX PA",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4ea",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 300
+            }
+        ],
+        "codigo": "CR-23",
+        "nombre": "TORAX PA Y LATERAL",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4eb",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 130
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-24",
+        "nombre": "ABDOMEN AP DE PIE",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 3,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4ec",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 130
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-25",
+        "nombre": "ABDOMEN EN DECUBITO",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 3,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4ed",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 220
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 250
+            }
+        ],
+        "codigo": "CR-26",
+        "nombre": "ABDOMEN AP DE PIE Y DECUBITO",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 3,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4ee",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 160
+            }
+        ],
+        "codigo": "CR-27",
+        "nombre": "ABDOMEN AP DE PIE NIÑO",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 3,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4ef",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-28",
+        "nombre": "COLUMNA DORSAL AP",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 5,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4f0",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-29",
+        "nombre": "COLUMNA CERVICAL AP",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 5,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4f1",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 150
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 210
+            }
+        ],
+        "codigo": "CR-30",
+        "nombre": "COLUMNA CERVICAL AP - LATERAL",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 5,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4f2",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-31",
+        "nombre": "COLUMNA CERVICAL LATERAL",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 5,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4f3",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-32",
+        "nombre": "COLUMNA CERVICAL OBLICUO / cada oblicuo",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 5,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4f4",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 170
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 220
+            }
+        ],
+        "codigo": "CR-33",
+        "nombre": "COLUMNA CERVICAL OBLICUOS DOS POSICIONES",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 5,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4f5",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 230
+            }
+        ],
+        "codigo": "CR-34",
+        "nombre": "COLUMNA DORSAL AP-LAT",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 5,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4f6",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 170
+            }
+        ],
+        "codigo": "CR-35",
+        "nombre": "COLUMNA DORSAL LATERAL",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 5,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4f7",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 210
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 250
+            }
+        ],
+        "codigo": "CR-36",
+        "nombre": "COLUMNA DORSO LUMBAR NIÑOS",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 5,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4f8",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 250
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 280
+            }
+        ],
+        "codigo": "CR-37",
+        "nombre": "COLUMNA DORSOLUMBAR AP-LATERAL /3 placas",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 5,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4f9",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-38",
+        "nombre": "COLUMNA LUMBAR AP",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 5,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4fa",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 250
+            }
+        ],
+        "codigo": "CR-39",
+        "nombre": "COLUMNA LUMBAR AP-LAT",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 5,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4fb",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "CR-40",
+        "nombre": "COLUMNA LUMBAR AP -LAT Y OBLICUAS",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 5,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4fc",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 180
+            }
+        ],
+        "codigo": "CR-41",
+        "nombre": "COLUMNA LUMBAR LATERAL",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 5,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4fd",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-42",
+        "nombre": "COLUMNA SACRO COXIS AP",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "PRESENTARSE EN AYUNAS - PURGARSE UN DIA ANTES",
+        "parte_anatomica": 5,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4fe",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-43",
+        "nombre": "COLUMNA SACRO COXIS LATERAL",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "PRESENTARSE EN AYUNAS - PURGARSE UN DIA ANTES",
+        "parte_anatomica": 5,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef4ff",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 250
+            }
+        ],
+        "codigo": "CR-44",
+        "nombre": "COLUMNA SACRO COXIS AP-LATERAL",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "PRESENTARSE EN AYUNAS - PURGARSE UN DIA ANTES",
+        "parte_anatomica": 5,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef500",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 200
+            }
+        ],
+        "codigo": "CR-45",
+        "nombre": "COLUMNA LUMBOSACRA AP-LAT",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "PRESENTARSE EN AYUNAS - PURGARSE UN DIA ANTES",
+        "parte_anatomica": 5,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef501",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 130
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 170
+            }
+        ],
+        "codigo": "CR-46",
+        "nombre": "PELVIS AP ADULTO",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 4,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef502",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 130
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 170
+            }
+        ],
+        "codigo": "CR-47",
+        "nombre": "PELVIS CON CARGA",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 4,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef503",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-48",
+        "nombre": "PELVIS AXIAL UNILATERAL",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 4,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef504",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 170
+            }
+        ],
+        "codigo": "CR-49",
+        "nombre": "PELVIS NIÑO( medicion de grados displasia)",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 4,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef505",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-50",
+        "nombre": "ANTEBRAZO AP-LAT",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 2,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef506",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-51",
+        "nombre": "BRAZO / HUMERO AP-LATERAL",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 2,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef507",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-52",
+        "nombre": "CODO AP-LAT",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 2,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef508",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-53",
+        "nombre": "DEDO AP-LATERAL Y OBLICUO",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 2,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef509",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-54",
+        "nombre": "MANO AP-LAT",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 2,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef50a",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-55",
+        "nombre": "MANO AP-OBLICUO",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 2,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef50b",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-56",
+        "nombre": "MUÑECA AP-LAT",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 2,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef50c",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-57",
+        "nombre": "AXIAL DE ROTULAS UN GRADO",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 6,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef50d",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 180
+            }
+        ],
+        "codigo": "CR-58",
+        "nombre": "AXIAL DE ROTULAS DOS GRADOS",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 6,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef50e",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 180
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 200
+            }
+        ],
+        "codigo": "CR-59",
+        "nombre": "AXIAL DE ROTULAS TRES GRADOS",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 6,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef50f",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 180
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 220
+            }
+        ],
+        "codigo": "CR-60",
+        "nombre": "CALCANEO LATERAL Y AXIAL / comparativas ambas",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 6,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef510",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-61",
+        "nombre": "CALCANEO LATERAL Y AXIAL (TALON)",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 6,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef511",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 170
+            }
+        ],
+        "codigo": "CR-62",
+        "nombre": "FEMUR AP",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 6,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef512",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 150
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 180
+            }
+        ],
+        "codigo": "CR-63",
+        "nombre": "FEMUR AP-LATERAL",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 6,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef513",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 170
+            }
+        ],
+        "codigo": "CR-64",
+        "nombre": "PIE AP Y OBLICUO O AP Y LAT",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 6,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef514",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 120
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 170
+            }
+        ],
+        "codigo": "CR-65",
+        "nombre": "PIERNA AP-LAT",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 6,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef515",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 250
+            }
+        ],
+        "codigo": "CR-66",
+        "nombre": "PIES AP Y LAT CON CARGA BILATERAL",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 6,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef516",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 170
+            }
+        ],
+        "codigo": "CR-67",
+        "nombre": "RODILLA AP-LAT  una sola",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 6,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef517",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 250
+            }
+        ],
+        "codigo": "CR-68",
+        "nombre": "RODILLAS AP Y LAT BILATERAL COMPARATIVAS",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 6,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef518",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 250
+            }
+        ],
+        "codigo": "CR-69",
+        "nombre": "TEST DE FARRELL",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 6,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef519",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 150
+            }
+        ],
+        "codigo": "CR-70",
+        "nombre": "TOBILLO AP-LAT",
+        "modalidad": "CR",
+        "modalidad_nombre": "rayos x",
+        "descripcion": "",
+        "parte_anatomica": 6,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef51a",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-01",
+        "nombre": "RESONANCIA DE CRÁNEO (cerebro, encéfalo)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef51b",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2500
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3000
+            }
+        ],
+        "codigo": "MR-02",
+        "nombre": "ANGIORESONANCIA CEREBRAL (Craneo - Encefalo)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef51c",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2500
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3000
+            }
+        ],
+        "codigo": "MR-03",
+        "nombre": "ANGIORESONANCIA DE AORTA ABDOMINAL",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef51d",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2500
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3000
+            }
+        ],
+        "codigo": "MR-04",
+        "nombre": "ANGIORESONANCIA DE AORTA TORACICA ",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef51e",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2500
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3000
+            }
+        ],
+        "codigo": "MR-05",
+        "nombre": "ANGIORESONANCIA DE VASOS DEL CUELLO",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef51f",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-06",
+        "nombre": "ATM (BOCA ABIERTA-CERRADA) (articu. Temporo mandibular)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef520",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-07",
+        "nombre": "COLANGIA RESONANCIA (abdomen,higado,pancreás)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef521",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-08",
+        "nombre": "PROTOCOLO PARA EPILEPSIA(CRÁNEO)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef522",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-09",
+        "nombre": "RESONANCIA ABDOMEN ",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef523",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-10",
+        "nombre": "RESONANCIA CADERA",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef524",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-11",
+        "nombre": "RESONANCIA COLUMNA CERVICAL",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef525",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-12",
+        "nombre": "RESONANCIA COLUMNA DORSAL (torácica)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef526",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-13",
+        "nombre": "RESONANCIA COLUMNA LUMBAR SACRA",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef527",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-14",
+        "nombre": "RESONANCIA CUELLO",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef528",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-15",
+        "nombre": "RESONANCIA DE DEDO",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef529",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-16",
+        "nombre": "RESONANCIA DE OIDOS ",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef52a",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-17",
+        "nombre": "RESONANCIA DE ORBITA",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef52b",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-18",
+        "nombre": "RESONANCIA EXTREMIDADES CODO",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef52c",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-19",
+        "nombre": "RESONANCIA EXTREMIDADES HOMBRO",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef52d",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-20",
+        "nombre": "RESONANCIA EXTREMIDADES MANO",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef52e",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-21",
+        "nombre": "RESONANCIA EXTREMIDADES MUÑECA",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef52f",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-22",
+        "nombre": "RESONANCIA EXTREMIDADES PIE",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef530",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-23",
+        "nombre": "RESONANCIA EXTREMIDADES RODILLA",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef531",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-24",
+        "nombre": "RESONANCIA EXTREMIDADES TOBILLO",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef532",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-25",
+        "nombre": "RESONANCIA FETAL INTRAUTERINA",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef533",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-26",
+        "nombre": "RESONANCIA MACIZO CRÁNEO FACIAL",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef534",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-27",
+        "nombre": "RESONANCIA MIEMBROS INFERIORES( fémur,tibia,peroné)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef535",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-28",
+        "nombre": "RESONANCIA PELVIS (Pelvis partes blandas)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef536",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-29",
+        "nombre": "RESONANCIA PELVIS (Pelvis ósea)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef537",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-30",
+        "nombre": "RESONANCIA PLEXO BRAQUIAL",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef538",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-31",
+        "nombre": "RESONANCIA PROTOCOLO ACV",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef539",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-32",
+        "nombre": "RESONANCIA SENOS PARANASALES (SPN)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef53a",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-33",
+        "nombre": "RESONANCIA TORAX",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef53b",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "MR-34",
+        "nombre": "RESONANCIA SILLA TURCA",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef53c",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 4500
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 5000
+            }
+        ],
+        "codigo": "MR-35",
+        "nombre": "RESONANCIA ABDOMENY PELVIS ",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef53d",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 7000
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 7500
+            }
+        ],
+        "codigo": "MR-36",
+        "nombre": "RESONANCIA COLUMNA TOTAL (CERVICO DORSO LUMBAR)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef53e",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 4300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 4800
+            }
+        ],
+        "codigo": "MR-37",
+        "nombre": "RESONANCIA CERVICO DORSAL",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef53f",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 4500
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 5000
+            }
+        ],
+        "codigo": "MR-38",
+        "nombre": "RESONANCIA COLUMNA DORSO LUMBAR",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef540",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-39",
+        "nombre": "RESONANCIA DE CRÁNEO (cerebro, encéfalo)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef541",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3500
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3550
+            }
+        ],
+        "codigo": "MR-40",
+        "nombre": "ANGIORESONANCIA CEREBRAL (Craneo - Encefalo)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef542",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3600
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3650
+            }
+        ],
+        "codigo": "MR-41",
+        "nombre": "ANGIORESONANCIA DE AORTA ABDOMINAL",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef543",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3600
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3650
+            }
+        ],
+        "codigo": "MR-42",
+        "nombre": "ANGIORESONANCIA DE AORTA TORACICA ",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef544",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3500
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3550
+            }
+        ],
+        "codigo": "MR-43",
+        "nombre": "ANGIORESONANCIA DE VASOS DEL CUELLO",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef545",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-44",
+        "nombre": "ATM (BOCA ABIERTA-CERRADA) (articu. Temporo mandibular)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef546",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-45",
+        "nombre": "COLANGIA RESONANCIA (abdomen,higado,pancreás)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef547",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-46",
+        "nombre": "PROTOCOLO PARA EPILEPSIA(CRÁNEO)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef548",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-47",
+        "nombre": "RESONANCIA ABDOMEN ",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef549",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-48",
+        "nombre": "RESONANCIA CADERA",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef54a",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-49",
+        "nombre": "RESONANCIA COLUMNA CERVICAL",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef54b",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-50",
+        "nombre": "RESONANCIA COLUMNA DORSAL (torácica)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef54c",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-51",
+        "nombre": "RESONANCIA COLUMNA LUMBAR SACRA",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef54d",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-52",
+        "nombre": "RESONANCIA CUELLO",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef54e",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-53",
+        "nombre": "RESONANCIA DE DEDO",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef54f",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-54",
+        "nombre": "RESONANCIA DE OIDOS ",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef550",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-55",
+        "nombre": "RESONANCIA DE ORBITA",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef551",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-56",
+        "nombre": "RESONANCIA EXTREMIDADES CODO",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef552",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-57",
+        "nombre": "RESONANCIA EXTREMIDADES HOMBRO",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef553",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-58",
+        "nombre": "RESONANCIA EXTREMIDADES MANO",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef554",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-59",
+        "nombre": "RESONANCIA EXTREMIDADES MUÑECA",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef555",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-60",
+        "nombre": "RESONANCIA EXTREMIDADES PIE",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef556",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-61",
+        "nombre": "RESONANCIA EXTREMIDADES RODILLA",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef557",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-62",
+        "nombre": "RESONANCIA EXTREMIDADES TOBILLO",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef558",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-63",
+        "nombre": "RESONANCIA FETAL INTRAUTERINA",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef559",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-64",
+        "nombre": "RESONANCIA MACIZO CRÁNEO FACIAL",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef55a",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-65",
+        "nombre": "RESONANCIA MIEMBROS INFERIORES( fémur,tibia,peroné)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef55b",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-66",
+        "nombre": "RESONANCIA PELVIS (Pelvis partes blandas)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef55c",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-67",
+        "nombre": "RESONANCIA PELVIS (Pelvis ósea)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef55d",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-68",
+        "nombre": "RESONANCIA PLEXO BRAQUIAL",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef55e",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-69",
+        "nombre": "RESONANCIA PROTOCOLO ACV",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef55f",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-70",
+        "nombre": "RESONANCIA SENOS PARANASALES (SPN)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef560",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-71",
+        "nombre": "RESONANCIA TORAX",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef561",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3250
+            }
+        ],
+        "codigo": "MR-72",
+        "nombre": "RESONANCIA SILLA TURCA",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef562",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 6500
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 6550
+            }
+        ],
+        "codigo": "MR-73",
+        "nombre": "RESONANCIA ABDOMENY PELVIS ",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef563",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 8500
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 8550
+            }
+        ],
+        "codigo": "MR-74",
+        "nombre": "RESONANCIA COLUMNA TOTAL (CERVICO DORSO LUMBAR)",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef564",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 5300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 5350
+            }
+        ],
+        "codigo": "MR-75",
+        "nombre": "RESONANCIA CERVICO DORSAL",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef565",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 5500
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 5550
+            }
+        ],
+        "codigo": "MR-76",
+        "nombre": "RESONANCIA COLUMNA DORSO LUMBAR",
+        "modalidad": "MR",
+        "modalidad_nombre": "resonancia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef566",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 250
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 450
+            }
+        ],
+        "codigo": "US-01",
+        "nombre": "ABDOMEN COMPLETO (Abdomen superior/inferior)(ves,higa,apen)",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "PRESENTARSE EN AYUNAS",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef567",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 210
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 330
+            }
+        ],
+        "codigo": "US-02",
+        "nombre": "ABDOMEN SUPERIOR ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "PRESENTARSE EN AYUNAS INGIRIENDO 1 LITRO DE AGUA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef568",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 240
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 330
+            }
+        ],
+        "codigo": "US-03",
+        "nombre": "ABDOMEN INFERIOR ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef569",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 210
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 330
+            }
+        ],
+        "codigo": "US-04",
+        "nombre": "HEPATOBILIOPANCREATICA O ABDOMEN SUP ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef56a",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 240
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "US-05",
+        "nombre": "RENO-VESICAL ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "TOMAR 1 LITRO DE AGUA 1 HORA ANTES DE PRESENTARSE",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef56b",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 240
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "US-06",
+        "nombre": "VESICAL-PROSTATAL - VIAS URINARIAS ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "TOMAR 1 LITRO DE AGUA 1 HORA ANTES DE PRESENTARSE",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef56c",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 470
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 570
+            }
+        ],
+        "codigo": "US-07",
+        "nombre": "RENOVESICO-PROSTATICA ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef56d",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 470
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 570
+            }
+        ],
+        "codigo": "US-08",
+        "nombre": "PROSTATICA TRANSRECTAL - ENDOANAL",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef56e",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 230
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "US-09",
+        "nombre": "GINECOLOGICA - TRANS ABDOMINAL ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "TOMAR 1 LITRO DE AGUA 1 HORA ANTES DE PRESENTARSE",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef56f",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 250
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "US-10",
+        "nombre": "MAMARIA ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef570",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 250
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "US-11",
+        "nombre": "TRANSVAGINAL ( ENDOVAGINAL) (trompas, ovarios, vejiga)",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef571",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 230
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "US-12",
+        "nombre": "OBSTETRICA 1 TRIMESTRE",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef572",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 400
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 500
+            }
+        ],
+        "codigo": "US-13",
+        "nombre": "TRANSLUCENCIA NUCAL (11/14 SEMANAS) CROMOSOMICA",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef573",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 230
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "US-14",
+        "nombre": "OBSTETRICA 2 Y 3 TRIMESTRE",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef574",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 500
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 600
+            }
+        ],
+        "codigo": "US-15",
+        "nombre": "OBSTETRICA 4D (20/24 SEMANAS)",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef575",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 350
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 450
+            }
+        ],
+        "codigo": "US-16",
+        "nombre": "MORFOLOGICA (23/28 SEMANAS)",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef576",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 250
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "US-17",
+        "nombre": "PILORO",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef577",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 250
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "US-18",
+        "nombre": "CEREBRAL NEONATO (cerebro prematuro, hemorragias)",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef578",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 250
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "US-19",
+        "nombre": "CADERAS (Tamizaje de Displasia de cadera)",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef579",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 230
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "US-20",
+        "nombre": "TIROIDES",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef57a",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 230
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "US-21",
+        "nombre": "GLANDULAS SALIVALES - MAXILAR",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef57b",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 230
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "US-22",
+        "nombre": "CUELLO",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef57c",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 230
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "US-23",
+        "nombre": "TESTICULAR ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef57d",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 280
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "US-24",
+        "nombre": "HOMBRO",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef57e",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 280
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "US-25",
+        "nombre": "CODO ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef57f",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 280
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "US-26",
+        "nombre": "MUÑECA",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef580",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 280
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "US-27",
+        "nombre": "CADERA (ADULTO)",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef581",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 280
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "US-28",
+        "nombre": "RODILLA TODILLO ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef582",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 280
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "US-29",
+        "nombre": "DEDO",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef583",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 280
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 350
+            }
+        ],
+        "codigo": "US-30",
+        "nombre": "MANO ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef584",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 550
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 650
+            }
+        ],
+        "codigo": "US-31",
+        "nombre": "DOPPLER DE CUELLO CAROTIDEO",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef585",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 450
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 500
+            }
+        ],
+        "codigo": "US-32",
+        "nombre": "DOPPLER PARTES BLANDAS ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef586",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2000
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2400
+            }
+        ],
+        "codigo": "US-33",
+        "nombre": "DOPPLER ARTERIAL Y VENOSO BILATERAL ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef587",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 950
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1200
+            }
+        ],
+        "codigo": "US-34",
+        "nombre": "DOPPLER ARTERIAL Y VENOSO MI",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef588",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 950
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1200
+            }
+        ],
+        "codigo": "US-35",
+        "nombre": "DOPPLER ARTERIAL Y VENOSO MS",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef589",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 550
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 650
+            }
+        ],
+        "codigo": "US-36",
+        "nombre": "DOPPLER VENOSO PROFUNDO (DESCARTAR TVP)",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef58a",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 400
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 550
+            }
+        ],
+        "codigo": "US-37",
+        "nombre": "DOPPLER GINECOLOGICA O PELVICA ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef58b",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 480
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 550
+            }
+        ],
+        "codigo": "US-38",
+        "nombre": "DOPPLER CROMOSOMICA ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef58c",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 480
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 550
+            }
+        ],
+        "codigo": "US-39",
+        "nombre": "DOPPLER MORFOLOGICA ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef58d",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 480
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 550
+            }
+        ],
+        "codigo": "US-40",
+        "nombre": "DOPPLER TRANSVAGINAL ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef58e",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 550
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 650
+            }
+        ],
+        "codigo": "US-41",
+        "nombre": "DOPPLER VENOSO DE MIEMBRO SUPERIOR\r\n(MAPEO VENOSO) VARISES",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef58f",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 550
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 650
+            }
+        ],
+        "codigo": "US-42",
+        "nombre": "DOPPLER VENOSO DE MIEMBRO INFERIOR\r\n (MAPEO VENOSO) VARISES",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef590",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 480
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 550
+            }
+        ],
+        "codigo": "US-43",
+        "nombre": "DOPPLER ARTERIAL DE MIEMBRO INFERIOR ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef591",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 480
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 550
+            }
+        ],
+        "codigo": "US-44",
+        "nombre": "DOPPLER ARTERIAL DE MIEMBRO SUPERIOR",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef592",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 480
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 550
+            }
+        ],
+        "codigo": "US-45",
+        "nombre": "DOPPLER RENAL ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef593",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 480
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 550
+            }
+        ],
+        "codigo": "US-46",
+        "nombre": "DOPPLER ESPLENOPORTAL ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef594",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 480
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 550
+            }
+        ],
+        "codigo": "US-47",
+        "nombre": "DOPPLER TESTICULAR ",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef595",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 480
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 550
+            }
+        ],
+        "codigo": "US-48",
+        "nombre": "DOPPLER OBSTETRICO (FETO PLACENTARIO)",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef596",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 480
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 550
+            }
+        ],
+        "codigo": "US-49",
+        "nombre": "DOPPLER SECREENING DE H.I.E.",
+        "modalidad": "US",
+        "modalidad_nombre": "ecografia",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef597",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1700
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1700
+            }
+        ],
+        "codigo": "CT-01",
+        "nombre": "ABDOMEN CON CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef598",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 900
+            }
+        ],
+        "codigo": "CT-02",
+        "nombre": "ABDOMEN SIMPLE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef599",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2000
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2000
+            }
+        ],
+        "codigo": "CT-03",
+        "nombre": "ABDOMEN CON Y SIN CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef59a",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2500
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2500
+            }
+        ],
+        "codigo": "CT-04",
+        "nombre": "ABDOMEN Y PELVIS CON CONTRASTE ",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef59b",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1500
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1500
+            }
+        ],
+        "codigo": "CT-05",
+        "nombre": "ABDONE Y PELVIS SIMPLE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef59c",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3700
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3700
+            }
+        ],
+        "codigo": "CT-06",
+        "nombre": "ABDOMEN Y PELVIS SIN Y CON CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef59d",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 900
+            }
+        ],
+        "codigo": "CT-07",
+        "nombre": "ARTICULACIONES",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef59e",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1500
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1500
+            }
+        ],
+        "codigo": "CT-08",
+        "nombre": "CADERAS CON CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef59f",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 900
+            }
+        ],
+        "codigo": "CT-09",
+        "nombre": "CADERAS SIMPLE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5a0",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 900
+            }
+        ],
+        "codigo": "CT-10",
+        "nombre": "CARA SIMPLE (MACIZO FACIAL SIMPLE)",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5a1",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1300
+            }
+        ],
+        "codigo": "CT-11",
+        "nombre": "CARA CON CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5a2",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2000
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2000
+            }
+        ],
+        "codigo": "CT-12",
+        "nombre": "CARA CON Y SIN CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5a3",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1400
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1400
+            }
+        ],
+        "codigo": "CT-13",
+        "nombre": "CODO CON CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5a4",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 900
+            }
+        ],
+        "codigo": "CT-14",
+        "nombre": "CODO SIMPLE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5a5",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1000
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1200
+            }
+        ],
+        "codigo": "CT-15",
+        "nombre": "COLUMNA CERVICAL 3 DISCOS",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5a6",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1400
+            }
+        ],
+        "codigo": "CT-16",
+        "nombre": "COLUMNA CERVICAL 4 DISCOS",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5a7",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1500
+            }
+        ],
+        "codigo": "CT-17",
+        "nombre": "COLUMNA CERVICAL 5 DISCOS",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5a8",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1400
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1600
+            }
+        ],
+        "codigo": "CT-18",
+        "nombre": "COLUMNA CERVICAL COMPLETA",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5a9",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1000
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1200
+            }
+        ],
+        "codigo": "CT-19",
+        "nombre": "COLUMNA DORSAL 3 DISCOS",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5aa",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1200
+            }
+        ],
+        "codigo": "CT-20",
+        "nombre": "COLUMNA DORSAL 4 DISCOS",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5ab",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1100
+            }
+        ],
+        "codigo": "CT-21",
+        "nombre": "COLUMNA DORSO LUMBAR 2 DISCOS",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5ac",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1000
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1200
+            }
+        ],
+        "codigo": "CT-22",
+        "nombre": "COLUMNA DORSO LUMBAR 3 DISCOS",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5ad",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1250
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1300
+            }
+        ],
+        "codigo": "CT-23",
+        "nombre": "COLUMNA LUMBAR 4 DISCOS",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5ae",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1400
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1500
+            }
+        ],
+        "codigo": "CT-24",
+        "nombre": "COLUMNA DORSO LUMBAR 5 DISCOS",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5af",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2500
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2700
+            }
+        ],
+        "codigo": "CT-25",
+        "nombre": "COLUMNA DORSO LUMBAR BARRIDO",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5b0",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1100
+            }
+        ],
+        "codigo": "CT-26",
+        "nombre": "COLUMNA LUMBAR 2 DISCOS",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5b1",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1200
+            }
+        ],
+        "codigo": "CT-27",
+        "nombre": "COLUMNA LUMBAR 3 DISCOS",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5b2",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1400
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1500
+            }
+        ],
+        "codigo": "CT-28",
+        "nombre": "COLUMNA LUMBAR BARRIDO (LUMBOSACRA)",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5b3",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 250
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 270
+            }
+        ],
+        "codigo": "CT-29",
+        "nombre": "CORTES ADICIONALES POR NIVEL",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5b4",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1000
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1000
+            }
+        ],
+        "codigo": "CT-30",
+        "nombre": "CRANEO CON CONTRASTE ",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5b5",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 600
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 650
+            }
+        ],
+        "codigo": "CT-31",
+        "nombre": "CRANEO SIMPLE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5b6",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1600
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1600
+            }
+        ],
+        "codigo": "CT-32",
+        "nombre": "CRANEO CON Y SIN CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5b7",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1400
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1400
+            }
+        ],
+        "codigo": "CT-33",
+        "nombre": "CUELLO CON CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5b8",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1100
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1100
+            }
+        ],
+        "codigo": "CT-34",
+        "nombre": "CUELLO SIMPLE ",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5b9",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2000
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2000
+            }
+        ],
+        "codigo": "CT-35",
+        "nombre": "CUELLO SIN Y CON CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5ba",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1400
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1400
+            }
+        ],
+        "codigo": "CT-36",
+        "nombre": "HOMBRO CON CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5bb",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 900
+            }
+        ],
+        "codigo": "CT-37",
+        "nombre": "HOMBRO SIMPLE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5bc",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1900
+            }
+        ],
+        "codigo": "CT-38",
+        "nombre": "HOMBRO CON Y SIN CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5bd",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1400
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1400
+            }
+        ],
+        "codigo": "CT-39",
+        "nombre": "HUESOS LARGOS(BRAZO -ANTEBRAZO-MUSLO -PIERNA)C/CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5be",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 900
+            }
+        ],
+        "codigo": "CT-40",
+        "nombre": "HUESOS LARGOS(BRAZO -ANTEBRAZO-MUSLO -PIERNA)SIMPLE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5bf",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1350
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1350
+            }
+        ],
+        "codigo": "CT-41",
+        "nombre": "MANO CON CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5c0",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 900
+            }
+        ],
+        "codigo": "CT-42",
+        "nombre": "MANO SIMPLE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5c1",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1400
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1400
+            }
+        ],
+        "codigo": "CT-43",
+        "nombre": "MAXILARES CON CONTRASTE (AXIAL Y CORONAL)",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5c2",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 900
+            }
+        ],
+        "codigo": "CT-44",
+        "nombre": "MAXILARES SIMPLE  (AXIAL Y CORONAL)",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5c3",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1900
+            }
+        ],
+        "codigo": "CT-45",
+        "nombre": "MAXILARES CON Y SIN CONTRASTE (AXIAL Y CORONAL)",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5c4",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1350
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1350
+            }
+        ],
+        "codigo": "CT-46",
+        "nombre": "MUÑECA CON CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5c5",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 900
+            }
+        ],
+        "codigo": "CT-47",
+        "nombre": "MUÑECA SIMPLE ",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5c6",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1300
+            }
+        ],
+        "codigo": "CT-48",
+        "nombre": "OIDO CON CONTRASTE (AXIAL Y CORONAL)",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5c7",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 900
+            }
+        ],
+        "codigo": "CT-49",
+        "nombre": "OIDO SIMPLE  (AXIAL Y CORONAL)",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5c8",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1900
+            }
+        ],
+        "codigo": "CT-50",
+        "nombre": "OIDO CON Y SIN CONTRASTE (AXIAL Y CORONAL)",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5c9",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1300
+            }
+        ],
+        "codigo": "CT-51",
+        "nombre": "ORBITA CON CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5ca",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 900
+            }
+        ],
+        "codigo": "CT-52",
+        "nombre": "ORBITA SIMPLE (AXIAL CORONAL)",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5cb",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1500
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1500
+            }
+        ],
+        "codigo": "CT-53",
+        "nombre": "PELVIS CON CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5cc",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 900
+            }
+        ],
+        "codigo": "CT-54",
+        "nombre": "PELVIS SIMPLE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5cd",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2200
+            }
+        ],
+        "codigo": "CT-55",
+        "nombre": "PELVIS CON Y SIN CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5ce",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1400
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1400
+            }
+        ],
+        "codigo": "CT-56",
+        "nombre": "PIE CON CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5cf",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 900
+            }
+        ],
+        "codigo": "CT-57",
+        "nombre": "PIE SIMPLE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5d0",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 280
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 280
+            }
+        ],
+        "codigo": "CT-58",
+        "nombre": "RECONSTRUCCIONES SAGITALES CADA PLACA",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5d1",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 320
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 320
+            }
+        ],
+        "codigo": "CT-59",
+        "nombre": "RECONSTRUCCIONES VOLUMETRICASY MULTIPLANARES EN 3D (*PLACA)",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5d2",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2900
+            }
+        ],
+        "codigo": "CT-60",
+        "nombre": "RENAL CON CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5d3",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1300
+            }
+        ],
+        "codigo": "CT-61",
+        "nombre": "SENOS PARANASALES CON CONTRASTE (AXIAL Y CORONAL)",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5d4",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 900
+            }
+        ],
+        "codigo": "CT-62",
+        "nombre": "SENOS PARANASALES SIMPLE(AXIAL Y CORONAL)",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5d5",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2000
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2000
+            }
+        ],
+        "codigo": "CT-63",
+        "nombre": "SENOS PARANASALES CON Y SIN CONTRASTE (AXIAL Y CORONAL)",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5d6",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1400
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1400
+            }
+        ],
+        "codigo": "CT-64",
+        "nombre": "SILLA TURCA CON CONTRASTE (AXIAL Y CORONAL)",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5d7",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 900
+            }
+        ],
+        "codigo": "CT-65",
+        "nombre": "SILLA TURCA SIMPLE(AXIAL Y CORONAL)",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5d8",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2000
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2000
+            }
+        ],
+        "codigo": "CT-66",
+        "nombre": "SILLA TURCA CON Y SIN CONTRASTE (AXIAL Y CORONAL)",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5d9",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2500
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2500
+            }
+        ],
+        "codigo": "CT-67",
+        "nombre": "TORAX-ABDOMEN Y PELVIS SIMPLE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5da",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 4700
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 4700
+            }
+        ],
+        "codigo": "CT-68",
+        "nombre": "TORAX - ABDOMEN Y PELVIS CON Y SIN CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5db",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1500
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1500
+            }
+        ],
+        "codigo": "CT-69",
+        "nombre": "TORAX CONTRASTADO ",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5dc",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 980
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1230
+            }
+        ],
+        "codigo": "CT-70",
+        "nombre": "TORAX SIMPLE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5dd",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1800
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1800
+            }
+        ],
+        "codigo": "CT-71",
+        "nombre": "TORAX CON Y SIN CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5de",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2700
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2700
+            }
+        ],
+        "codigo": "CT-72",
+        "nombre": "TORAX Y ABDOMEN CON CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5df",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1900
+            }
+        ],
+        "codigo": "CT-73",
+        "nombre": "TORAX Y ABDOMEN SIMPLE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5e0",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 3900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 3900
+            }
+        ],
+        "codigo": "CT-74",
+        "nombre": "TORAX Y ABDOMEN SIMPLE Y CON CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5e1",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1600
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1600
+            }
+        ],
+        "codigo": "CT-75",
+        "nombre": "UROTAC SIMPLE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5e2",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 4200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 4200
+            }
+        ],
+        "codigo": "CT-76",
+        "nombre": "CUELLO TORAX ABDOMEN Y PELVIS C / C ",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5e3",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2800
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2800
+            }
+        ],
+        "codigo": "CT-77",
+        "nombre": "CUELLO TORAX  ABDOMEN Y PELVIS  SIMPLE ",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5e4",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 5300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 5300
+            }
+        ],
+        "codigo": "CT-78",
+        "nombre": "CUELLO TORAX ABDOMEN Y PELVIS SIN Y CON / C ",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5e5",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 950
+            }
+        ],
+        "codigo": "CT-79",
+        "nombre": "CRANEO 3D",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5e6",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1200
+            }
+        ],
+        "codigo": "CT-80",
+        "nombre": "ORBITAS 3D",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5e7",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 2900
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 2900
+            }
+        ],
+        "codigo": "CT-81",
+        "nombre": "UROTAC  c/ contraste",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5e8",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1200
+            }
+        ],
+        "codigo": "CT-82",
+        "nombre": "ARTICULACIONES CON RESOLUCION 3D",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5e9",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1200
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1200
+            }
+        ],
+        "codigo": "CT-83",
+        "nombre": "MACIZO FACIAL + RECONSTRUCION 3D",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5ea",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 1500
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 1500
+            }
+        ],
+        "codigo": "CT-84",
+        "nombre": "MACIZO FACIAL + RECONSTRUCION 3D CON CONTRASTE",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "PRESENTARSE EN AYUNAS CON LABORATORIO DE CREATININA",
+        "parte_anatomica": -1,
+        "preparacion": true
+    },
+    {
+        "_id": "62c74572d2f05be4549ef5eb",
+        "precio": [
+            {
+                "etiqueta": "base",
+                "valor": 300
+            },
+            {
+                "etiqueta": "emergencia",
+                "valor": 300
+            }
+        ],
+        "codigo": "CT-85",
+        "nombre": "RECONSTRUCCION EN 3D ADICIONAR",
+        "modalidad": "CT",
+        "modalidad_nombre": "tomografias",
+        "descripcion": "",
+        "parte_anatomica": -1,
+        "preparacion": false
+    }
+]

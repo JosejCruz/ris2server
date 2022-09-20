@@ -3,11 +3,11 @@ import { Usuario } from '../data/Users';
 
 const llave = '12345678';
 
-function generateAccessToken(user:string){
-    return jwt.sign({user}, llave, {expiresIn: 60 * 60})
+function generateAccessToken(user: string) {
+    return jwt.sign({ user }, llave, { expiresIn: 60 * 60 })
 }
 
-function validateToken(req:any, res:any, next:any){
+function validateToken(req: any, res: any, next: any) {
     const token = req.headers['x-access-token']
     if (!token) {
         return res.json({
@@ -16,13 +16,13 @@ function validateToken(req:any, res:any, next:any){
         })
     }
     try {
-        const usuario:Usuario = {
+        const usuario: Usuario = {
             Id: 1,
             Nombre: "Usuario 1",
             User: "Admin",
             Password: "12345678910"
         }
-        const decode = jwt.verify(token, llave)
+        const decode:any = jwt.verify(token, llave)
         if (decode.user != usuario.User) {
             return res.json({
                 auth: false,
@@ -38,6 +38,27 @@ function validateToken(req:any, res:any, next:any){
     }
 }
 
-const exp = {validateToken,generateAccessToken}
+function VerificarToken(token:string) {
+    const usuario: Usuario = {
+        Id: 1,
+        Nombre: "Usuario 1",
+        User: "Admin",
+        Password: "12345678910"
+    }
+    if(!token){
+        return {estatus:401, auth:false, mensaje:"No token access"}
+    }
+    try {
+        const decode:any = jwt.verify(token, llave)
+        if (decode.user != usuario.User) {
+            return {estatus:404, auth:false, mensaje:"User not Found"}
+        }
+        console.log(decode)
+        return {estatus:200, auth:true, mensaje:usuario}
+    } catch (error) {
+        return {estatus:401, auth:false, mensaje:"error verifying token"}
+    }
+}
+const exp = { validateToken, generateAccessToken, VerificarToken }
 
 export default exp;

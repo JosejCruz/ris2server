@@ -1,0 +1,25 @@
+[{
+  "_id": "62c74572d2f05be4549ef5ec",
+  "nombreModDicom": "MG",
+  "nombreMod": "mamografia"
+},{
+  "_id":"62c74572d2f05be4549ef5ed",
+  "nombreModDicom": "densitometria",
+  "nombreMod": "densitometria"
+},{
+  "_id": "62c74572d2f05be4549ef5ee",
+  "nombreModDicom": "CR",
+  "nombreMod": "rayos x"
+},{
+  "_id":  "62c74572d2f05be4549ef5ef",
+  "nombreModDicom": "MR",
+  "nombreMod": "resonancia"
+},{
+  "_id": "62c74572d2f05be4549ef5f0",
+  "nombreModDicom": "US",
+  "nombreMod": "ecografia"
+},{
+  "_id": "62c74572d2f05be4549ef5f1",
+  "nombreModDicom": "CT",
+  "nombreMod": "tomografia"
+}]

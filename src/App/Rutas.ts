@@ -1,110 +1,47 @@
-import {Router} from 'express'
+import { json, Router } from 'express'
 import { Content } from '../data/Content';
-import {Usuario} from '../data/Users'
-const jwt = require('jsonwebtoken')
+import { Usuario } from '../data/Users'
+import Scripts from './Scripts'
+import fs from 'fs'
 
-const llave = '12345678';
+
 const route = Router()
-function prueba(req:any, res:any, next:any){
-    console.log("Prueba")
-    res.status(403)
-    res.end()
-}
-route.get("/", async (req, res)=>{
+
+route.get("/", async (req, res) => {
     console.log(req.query)
     res.send("Hola")
 })
 
 
-route.post("/login", (req, res, next)=>{
+route.post("/login", (req, res, next) => {
     const { user, password } = req.body;
-    const usuario:Usuario = {
+    const usuario: Usuario = {
         Id: 1,
         Nombre: "Usuario 1",
         User: "Admin",
         Password: "12345678910"
     }
-    if(user ==  usuario.User && password == usuario.Password){
-        const accesstoken = generateAccessToken(user);
-        res.json({auth: true, token: accesstoken})
-    }else{
-        res.json({auth: false})
+    if (user == usuario.User && password == usuario.Password) {
+        const accesstoken = Scripts.generateAccessToken(user);
+        res.json({ auth: true, token: accesstoken })
+    } else {
+        res.json({ auth: false })
     }
 })
 
-function generateAccessToken(user:string){
-    return jwt.sign({user}, llave, {expiresIn: 60 * 60})
-}
 
 
-route.get("/auth", (req, res)=>{
+route.get("/auth", (req, res) => {
     const token = req.headers['x-access-token']
-    const usuario:Usuario = {
-        Id: 1,
-        Nombre: "Usuario 1",
-        User: "Admin",
-        Password: "12345678910"
-    }
-    if (!token) {
-        return res.status(401).json({
-            auth: false,
-            message: 'No token access'
-        })
-    }
-    
-    try {
-        const decode = jwt.verify(token, llave)
-        if (decode.user != usuario.User) {
-            return res.status(404).json({
-                auth: false,
-                message: 'User not Found'
-            })
-        }
-        console.log(decode)
-        res.json({
-            auth: true,
-            message: "Welcome",
-            usuario
-        });
-    } catch (error) {
-        return res.status(401).json({
-            auth: false,
-            message: 'error verifying token'
-        })
-    }
+    let respuesta = Scripts.VerificarToken(token as string)
+    res.status(respuesta.estatus).json({
+        auth: respuesta.auth,
+        message: respuesta.mensaje
+    })
 })
 
-function validateToken(req:any, res:any, next:any){
-    const token = req.headers['x-access-token']
-    if (!token) {
-        return res.json({
-            auth: false,
-            message: 'No token access'
-        })
-    }
-    try {
-        const usuario:Usuario = {
-            Id: 1,
-            Nombre: "Usuario 1",
-            User: "Admin",
-            Password: "12345678910"
-        }
-        const decode = jwt.verify(token, llave)
-        if (decode.user != usuario.User) {
-            return res.json({
-                auth: false,
-                message: 'error verifying token'
-            })
-        }
-        next()
-    } catch (error) {
-        return res.status(401).json({
-            auth: false,
-            message: 'error verifying token'
-        })
-    }
-}
-route.get("/content", validateToken, (req, res)=>{
+
+route.get("/content", Scripts.validateToken, (req, res) => {
     res.json(Content)
 
     // let datos = "";
@@ -126,4 +63,17 @@ route.get("/content", validateToken, (req, res)=>{
     //     </table>`
     // )
 })
+
+route.get("/modalidades",async (req,res) => {
+    let modalidades = JSON.parse( fs.readFileSync("./Fake/modalidades.json","utf-8") );
+    res.json(modalidades)
+})
+route.get("/estudios/:mod",async (req,res) => {
+    let mod = req.params.mod;
+    console.log(mod)
+    let estudios = JSON.parse( fs.readFileSync("./Fake/estudios2.json","utf-8") );
+    let estudiosFiltrados = estudios.filter((estudio:any) => estudio.modalidad == mod)
+    res.json(estudiosFiltrados)
+})
+
 export default route
