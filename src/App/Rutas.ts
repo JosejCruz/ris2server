@@ -36,7 +36,8 @@ route.get("/auth", (req, res) => {
     let respuesta = Scripts.VerificarToken(token as string)
     res.status(respuesta.estatus).json({
         auth: respuesta.auth,
-        message: respuesta.mensaje
+        message: respuesta.mensaje,
+        token: respuesta.token
     })
 })
 

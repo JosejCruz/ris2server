@@ -4,7 +4,7 @@ import { Usuario } from '../data/Users';
 const llave = '12345678';
 
 function generateAccessToken(user: string) {
-    return jwt.sign({ user }, llave, { expiresIn: 60 * 60 })
+    return jwt.sign({ user }, llave, { expiresIn: 60 * 60 * 48 })
 }
 
 function validateToken(req: any, res: any, next: any) {
@@ -55,7 +55,8 @@ function VerificarToken(token:string) {
             return {estatus:404, auth:false, mensaje:"User not Found"}
         }
         console.log(decode)
-        return {estatus:200, auth:true, mensaje:usuario}
+        let tokenupdate = generateAccessToken(usuario.User)
+        return {estatus:200, auth:true, mensaje:usuario, token: tokenupdate}
     } catch (error) {
         return {estatus:401, auth:false, mensaje:"error verifying token"}
     }
