@@ -98,17 +98,19 @@
             "NIT": "654875",
             "Razonsocial": "Estandar"
         },
-        "ListaEstudios": {
-            "_id": "62c74572d2f05be4549ef4d3",
-            "nombreMod": "densitometria",
-            "nombreModDicom": "densitometria",
-            "nombreEstudio": "DENSITOMETRIA OSEA CADERA Y COLUMNA",
-            "precio": 270,
-            "preparacion": true,
-            "parteAnatomica": -1,
-            "datosPreparacion": "string",
-            "codigo": "DE-01"
-        },
+        "ListaEstudios": [
+            {
+                "_id": "62c74572d2f05be4549ef4d3",
+                "nombreMod": "densitometria",
+                "nombreModDicom": "densitometria",
+                "nombreEstudio": "DENSITOMETRIA OSEA CADERA Y COLUMNA",
+                "precio": 270,
+                "preparacion": true,
+                "parteAnatomica": -1,
+                "datosPreparacion": "string",
+                "codigo": "DE-01"
+            }
+        ],
         "Total": 270,
         "Abono": 0,
         "EstadosDeCuenta": {
@@ -147,17 +149,19 @@
             "NIT": "49878975",
             "Razonsocial": "Estandar"
         },
-        "ListaEstudios": {
-            "_id": "62c74572d2f05be4549ef4d4",
-            "nombreMod": "rayos x",
-            "nombreModDicom": "CR",
-            "nombreEstudio": "CRANEO AP",
-            "precio": 270,
-            "preparacion": true,
-            "parteAnatomica": -1,
-            "datosPreparacion": "string",
-            "codigo": "CR-01"
-        },
+        "ListaEstudios": [
+            {
+                "_id": "62c74572d2f05be4549ef4d4",
+                "nombreMod": "rayos x",
+                "nombreModDicom": "CR",
+                "nombreEstudio": "CRANEO AP",
+                "precio": 270,
+                "preparacion": true,
+                "parteAnatomica": -1,
+                "datosPreparacion": "string",
+                "codigo": "CR-01"
+            }
+        ],
         "Total": 270,
         "Abono": 0,
         "EstadosDeCuenta": {
@@ -196,17 +200,19 @@
             "NIT": "6494645875",
             "Razonsocial": "Estandar"
         },
-        "ListaEstudios": {
-            "_id": "62c74572d2f05be4549ef4d5",
-            "nombreMod": "rayos x",
-            "nombreModDicom": "CR",
-            "nombreEstudio": "CRANEO LATERAL",
-            "precio": 270,
-            "preparacion": true,
-            "parteAnatomica": -1,
-            "datosPreparacion": "string",
-            "codigo": "CR-02"
-        },
+        "ListaEstudios": [
+            {
+                "_id": "62c74572d2f05be4549ef4d5",
+                "nombreMod": "rayos x",
+                "nombreModDicom": "CR",
+                "nombreEstudio": "CRANEO LATERAL",
+                "precio": 270,
+                "preparacion": true,
+                "parteAnatomica": -1,
+                "datosPreparacion": "string",
+                "codigo": "CR-02"
+            }
+        ],
         "Total": 270,
         "Abono": 0,
         "EstadosDeCuenta": {
@@ -245,17 +251,19 @@
             "NIT": "64946158754",
             "Razonsocial": "Estandar"
         },
-        "ListaEstudios": {
-            "_id": "62c74572d2f05be4549ef4d8",
-            "nombreMod": "rayos x",
-            "nombreModDicom": "CR",
-            "nombreEstudio": "CAVUM FARINGEO",
-            "precio": 250,
-            "preparacion": true,
-            "parteAnatomica": -1,
-            "datosPreparacion": "string",
-            "codigo": "CR-05"
-        },
+        "ListaEstudios": [
+            {
+                "_id": "62c74572d2f05be4549ef4d8",
+                "nombreMod": "rayos x",
+                "nombreModDicom": "CR",
+                "nombreEstudio": "CAVUM FARINGEO",
+                "precio": 250,
+                "preparacion": true,
+                "parteAnatomica": -1,
+                "datosPreparacion": "string",
+                "codigo": "CR-05"
+            }
+        ],
         "Total": 250,
         "Abono": 0,
         "EstadosDeCuenta": {
@@ -294,17 +302,19 @@
             "NIT": "649461587745",
             "Razonsocial": "Estandar"
         },
-        "ListaEstudios": {
-            "_id": "632a1bcb3afa13612bf5614d",
-            "nombreMod": "mamografia",
-            "nombreModDicom": "MG",
-            "nombreEstudio": "MAMOGRAFIA",
-            "precio": 500,
-            "preparacion": true,
-            "parteAnatomica": -1,
-            "datosPreparacion": "string",
-            "codigo": "MG-01"
-        },
+        "ListaEstudios": [
+            {
+                "_id": "632a1bcb3afa13612bf5614d",
+                "nombreMod": "mamografia",
+                "nombreModDicom": "MG",
+                "nombreEstudio": "MAMOGRAFIA",
+                "precio": 500,
+                "preparacion": true,
+                "parteAnatomica": -1,
+                "datosPreparacion": "string",
+                "codigo": "MG-01"
+            }
+        ],
         "Total": 500,
         "Abono": 0,
         "EstadosDeCuenta": {
@@ -343,17 +353,19 @@
             "NIT": "6494615877",
             "Razonsocial": "Estandar"
         },
-        "ListaEstudios": {
-            "_id": "62c74572d2f05be4549ef4d9",
-            "nombreMod": "rayos x",
-            "nombreModDicom": "CR",
-            "nombreEstudio": "HUESOS PROPIOS DE NARIZ (WATTERS Y PERFILOGRAMA)",
-            "precio": 420,
-            "preparacion": true,
-            "parteAnatomica": -1,
-            "datosPreparacion": "string",
-            "codigo": "CR-06"
-        },
+        "ListaEstudios": [
+            {
+                "_id": "62c74572d2f05be4549ef4d9",
+                "nombreMod": "rayos x",
+                "nombreModDicom": "CR",
+                "nombreEstudio": "HUESOS PROPIOS DE NARIZ (WATTERS Y PERFILOGRAMA)",
+                "precio": 420,
+                "preparacion": true,
+                "parteAnatomica": -1,
+                "datosPreparacion": "string",
+                "codigo": "CR-06"
+            }
+        ],
         "Total": 420,
         "Abono": 0,
         "EstadosDeCuenta": {
@@ -392,17 +404,19 @@
             "NIT": "64946158711",
             "Razonsocial": "Estandar"
         },
-        "ListaEstudios": {
-            "_id": "632a1bcb3afa13612bf5614d",
-            "nombreMod": "mamografia",
-            "nombreModDicom": "MG",
-            "nombreEstudio": "MAMOGRAFIA",
-            "precio": 500,
-            "preparacion": true,
-            "parteAnatomica": -1,
-            "datosPreparacion": "string",
-            "codigo": "MG-01"
-        },
+        "ListaEstudios": [
+            {
+                "_id": "632a1bcb3afa13612bf5614d",
+                "nombreMod": "mamografia",
+                "nombreModDicom": "MG",
+                "nombreEstudio": "MAMOGRAFIA",
+                "precio": 500,
+                "preparacion": true,
+                "parteAnatomica": -1,
+                "datosPreparacion": "string",
+                "codigo": "MG-01"
+            }
+        ],
         "Total": 500,
         "Abono": 0,
         "EstadosDeCuenta": {
@@ -441,17 +455,19 @@
             "NIT": "64946158775",
             "Razonsocial": "Estandar"
         },
-        "ListaEstudios": {
-            "_id": "632a1bcb3afa13612bf5614d",
-            "nombreMod": "mamografia",
-            "nombreModDicom": "MG",
-            "nombreEstudio": "MAMOGRAFIA",
-            "precio": 500,
-            "preparacion": true,
-            "parteAnatomica": -1,
-            "datosPreparacion": "string",
-            "codigo": "MG-01"
-        },
+        "ListaEstudios": [
+            {
+                "_id": "632a1bcb3afa13612bf5614d",
+                "nombreMod": "mamografia",
+                "nombreModDicom": "MG",
+                "nombreEstudio": "MAMOGRAFIA",
+                "precio": 500,
+                "preparacion": true,
+                "parteAnatomica": -1,
+                "datosPreparacion": "string",
+                "codigo": "MG-01"
+            }
+        ],
         "Total": 500,
         "Abono": 0,
         "EstadosDeCuenta": {
@@ -490,17 +506,19 @@
             "NIT": "6494615877447",
             "Razonsocial": "Estandar"
         },
-        "ListaEstudios": {
-            "_id": "632a1bcb3afa13612bf5614d",
-            "nombreMod": "mamografia",
-            "nombreModDicom": "MG",
-            "nombreEstudio": "MAMOGRAFIA",
-            "precio": 500,
-            "preparacion": true,
-            "parteAnatomica": -1,
-            "datosPreparacion": "string",
-            "codigo": "MG-01"
-        },
+        "ListaEstudios": [
+            {
+                "_id": "632a1bcb3afa13612bf5614d",
+                "nombreMod": "mamografia",
+                "nombreModDicom": "MG",
+                "nombreEstudio": "MAMOGRAFIA",
+                "precio": 500,
+                "preparacion": true,
+                "parteAnatomica": -1,
+                "datosPreparacion": "string",
+                "codigo": "MG-01"
+            }
+        ],
         "Total": 500,
         "Abono": 0,
         "EstadosDeCuenta": {
@@ -539,17 +557,19 @@
             "NIT": "649461125875",
             "Razonsocial": "Estandar"
         },
-        "ListaEstudios": {
-            "_id": "632a1bcb3afa13612bf5614d",
-            "nombreMod": "mamografia",
-            "nombreModDicom": "MG",
-            "nombreEstudio": "MAMOGRAFIA",
-            "precio": 500,
-            "preparacion": true,
-            "parteAnatomica": -1,
-            "datosPreparacion": "string",
-            "codigo": "MG-01"
-        },
+        "ListaEstudios": [
+            {
+                "_id": "632a1bcb3afa13612bf5614d",
+                "nombreMod": "mamografia",
+                "nombreModDicom": "MG",
+                "nombreEstudio": "MAMOGRAFIA",
+                "precio": 500,
+                "preparacion": true,
+                "parteAnatomica": -1,
+                "datosPreparacion": "string",
+                "codigo": "MG-01"
+            }
+        ],
         "Total": 500,
         "Abono": 0,
         "EstadosDeCuenta": {
