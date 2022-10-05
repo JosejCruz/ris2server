@@ -25,17 +25,41 @@
             "NIT": "6494615875",
             "Razonsocial": "Estandar"
         },
-        "ListaEstudios": {
-            "_id": "632a1bcb3afa13612bf5614d",
-            "nombreMod": "mamografia",
-            "nombreModDicom": "MG",
-            "nombreEstudio": "MAMOGRAFIA",
-            "precio": 500,
-            "preparacion": true,
-            "parteAnatomica": -1,
-            "datosPreparacion": "string",
-            "codigo": "MG-01"
-        },
+        "ListaEstudios": [
+            {
+                "_id": "632a1bcb3afa13612bf5614d",
+                "nombreMod": "mamografia",
+                "nombreModDicom": "MG",
+                "nombreEstudio": "MAMOGRAFIA",
+                "precio": 500,
+                "preparacion": true,
+                "parteAnatomica": -1,
+                "datosPreparacion": "string",
+                "codigo": "MG-01"
+            },
+            {
+                "_id": "62c74572d2f05be4549ef4d3",
+                "nombreMod": "densitometria",
+                "nombreModDicom": "densitometria",
+                "nombreEstudio": "DENSITOMETRIA OSEA CADERA Y COLUMNA",
+                "precio": 270,
+                "preparacion": true,
+                "parteAnatomica": -1,
+                "datosPreparacion": "string",
+                "codigo": "DE-01"
+            },
+            {
+                "_id": "62c74572d2f05be4549ef4d4",
+                "nombreMod": "rayos x",
+                "nombreModDicom": "CR",
+                "nombreEstudio": "CRANEO AP",
+                "precio": 270,
+                "preparacion": true,
+                "parteAnatomica": -1,
+                "datosPreparacion": "string",
+                "codigo": "CR-01"
+            }
+        ],
         "Total": 500,
         "Abono": 0,
         "EstadosDeCuenta": {
